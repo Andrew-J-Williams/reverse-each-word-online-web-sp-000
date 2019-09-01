@@ -23,5 +23,5 @@ def reverse_each_word(string)
   end
 
   #reversed_array.join(" ")
-
+  new_array
 end
