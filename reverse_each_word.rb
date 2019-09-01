@@ -3,10 +3,10 @@
 
   #reversed_array = [] Third, create a second array to hold our reversed words.
 
-  #new_array.each do |word| Fourth, use the each method 
-  #    reversed_array << word.reverse
-  #end
+  #new_array.each do |word| Fourth, use the each method to iterate over every element in our 'new_array'.
+  #    reversed_array << word.reverse Fifth, we reverse each element and shovel it into our 'reversed_array'.
+  #end (Our 'reversed_array' will look like this: ["iH", "s'ti", ".em"])
 
-  #reversed_array.join(" ")
+  #reversed_array.join(" ") #Finally, we take our second array and join the elements into a new string separated by a " ".
 
 #end
