@@ -17,5 +17,5 @@ def reverse_each_word(string) #We create the same method and argument for using 
 
   new_array.collect {|word| word.reverse}.join(" ") #Second, we use collect to iterate through each element and reverse them.
   #Once every element has been reversed, we use 'join(" ")' to return the array as a string.
-
+  #Seriously, this method is way faster and easier to read versus using 'each'.
 end
