@@ -5,7 +5,7 @@ def reverse_each_word(string)
   reversed_words = []
 
   our_word.each do |word|
-    reversed_words.unshift(word.reverse)
+    reversed_words << word.reverse
   end
 
   reversed_words.join(" ")
