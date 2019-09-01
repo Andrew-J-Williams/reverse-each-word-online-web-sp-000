@@ -11,14 +11,11 @@
 
 #end
 
-def reverse_each_word(string)
+def reverse_each_word(string) #We create the same method and argument for using the 'collect' method.
 
-  new_array = string.split(" ")
-  #reversed_array = []
+  new_array = string.split(" ") #First, take that string and convert it into an array where each word in the string is an element.
 
-  new_array.collect {|word| word.reverse}.join(" ")
-  #    word.reverse
-  #end
+  new_array.collect {|word| word.reverse}.join(" ") #Second, we use collect to iterate through each element and reverse them.
+  #Once every element has been reversed, we use 'join(" ")' to return the array as a string.
 
-  #reversed_array.join(" ")
 end
