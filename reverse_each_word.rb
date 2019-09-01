@@ -19,7 +19,7 @@ def reverse_each_word(string)
 
   new_array.collect do |word|
       #reversed_array <<
-      print word
+      word.reverse
   end
 
   #reversed_array.join(" ")
