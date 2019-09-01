@@ -10,3 +10,5 @@
   #reversed_array.join(" ") #Finally, we take our second array and join the elements into a new string separated by a " ".
 
 #end
+
+def reverse_each_word(string)
